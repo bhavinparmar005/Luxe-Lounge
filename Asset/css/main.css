@@ -1,0 +1,56 @@
+@font-face {
+  font-family: bahvinbhai;
+  src: url(./Font/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: bahvinbhai;
+  font-weight: 500;
+}
+body{
+  background: red;
+}
+
+/* navbar  */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+.navbar-nav .nav-link {
+  margin-right: 20px;
+}
+.navbar-icons a {
+  margin-left: 15px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.after ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+
+  background: rgba(0, 0, 0, 0.724);
+
+  margin: auto;
+  transition: all 1.5s;
+}
+
+.after ul li a:hover::after {
+  width: 100%;
+}
+.icon_hover:hover {
+color: red;
+}
+
+.img-height{
+
+height: 530px;
+}
+
+
