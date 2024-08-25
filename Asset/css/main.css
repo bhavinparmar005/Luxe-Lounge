@@ -10,8 +10,13 @@
   font-family: bahvinbhai;
   font-weight: 500;
 }
-body{
-  background: red;
+.hello{
+  border: 1px solid red;
+}
+body {
+  height: 3000px;
+  /* background: rgba(255, 255, 255, 1); */
+  background: rgba(255, 0, 0, 0.148);
 }
 
 /* navbar  */
@@ -45,12 +50,33 @@ body{
   width: 100%;
 }
 .icon_hover:hover {
-color: red;
+  color: red;
 }
 
-.img-height{
+/* navbar end  */
 
-height: 530px;
+/* swiper */
+
+.slide_img {
+  height: 532px;
+}
+
+/* swiper end  */
+
+
+/* some contain  */
+.simply_text_size{
+  font-size: 65px;
+  line-height:76px;
+  font-weight: 600;
+}
+.right_side_simply_text_size{
+  font-size: 1rem;
+  line-height: 26px;
+  padding-left: 20px;
+  
+ 
 }
 
 
+/* some contain End */

@@ -1,0 +1,35 @@
+@media(width<=500px){
+    /* body{
+        background: orange;
+    } */
+
+  
+    .slide_img{
+        height: 250px;
+    }
+      
+    .simply_text_size{
+        text-align: center;
+        font-size: 2.2rem;
+        line-height:50px ;
+      
+      }
+      .right_side_simply_text_size{
+      
+       margin-top: 20px;
+        
+       
+      }
+}
+
+@media(width<=800px){
+    /* body{
+        background: orange;
+    } */
+
+  
+    .slide_img{
+        height: 400px;
+    }
+      
+}
