@@ -10,13 +10,14 @@
   font-family: bahvinbhai;
   font-weight: 500;
 }
-.hello{
+.hello {
   border: 1px solid red;
 }
 body {
   height: 3000px;
+
   /* background: rgba(255, 255, 255, 1); */
-  background: rgba(255, 0, 0, 0.148);
+  /* background: rgba(255, 0, 0, 0.148); */
 }
 
 /* navbar  */
@@ -63,20 +64,66 @@ body {
 
 /* swiper end  */
 
-
 /* some contain  */
-.simply_text_size{
+.simply_text_size {
   font-size: 65px;
-  line-height:76px;
+  line-height: 76px;
   font-weight: 600;
 }
-.right_side_simply_text_size{
+.right_side_simply_text_size {
   font-size: 1rem;
   line-height: 26px;
   padding-left: 20px;
-  
- 
 }
 
-
 /* some contain End */
+
+/* product img  */
+
+.category-box {
+  position: relative;
+  text-align: start;
+  color: black;
+
+  background-color: rgba(128, 128, 128, 0.244);
+  border-radius: 10px;
+}
+
+.category-box img {
+  width: 100%;
+
+  border-radius: 10px;
+}
+.category-box .category-text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+.category-text_living_room {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.category-box h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.category-box a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.category-box a:hover {
+  text-decoration: underline;
+}
+/* product img end */
+.living_room_img {
+  height: 655px;
+}
+.bedroom_img {
+  height: 319px;
+}
+.kitchen_img {
+  height: 319px;
+}

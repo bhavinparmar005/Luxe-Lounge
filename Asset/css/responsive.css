@@ -1,35 +1,79 @@
-@media(width<=500px){
-    /* body{
+@media (width<=500px) {
+  /* body{
         background: orange;
     } */
 
-  
-    .slide_img{
-        height: 250px;
-    }
-      
-    .simply_text_size{
-        text-align: center;
-        font-size: 2.2rem;
-        line-height:50px ;
-      
-      }
-      .right_side_simply_text_size{
-      
-       margin-top: 20px;
-        
-       
-      }
+  .slide_img {
+    height: 250px;
+  }
+
+  .simply_text_size {
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 50px;
+  }
+  .right_side_simply_text_size {
+    margin-top: 20px;
+  }
+  .category-box .category-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  .category-text_living_room {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .category-box h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .category-box a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .living_room_img {
+    height: 357px;
+  }
+  .bedroom_img {
+    height: 180px;
+  }
+  .kitchen_img {
+    height: 180px;
+  }
 }
 
-@media(width<=800px){
-    /* body{
+@media (width<=800px) {
+  /* body{
         background: orange;
     } */
 
-  
-    .slide_img{
-        height: 400px;
-    }
-      
+  .slide_img {
+    height: 400px;
+  }
+  .category-box .category-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .living_room_img {
+    height: 500px;
+  }
+  .bedroom_img {
+    height: 242px;
+  }
+  .kitchen_img {
+    height: 242px;
+  }
+}
+@media (width<=980px) {
+  .category-box .category-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
 }
