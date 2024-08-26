@@ -1,210 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Responsive Navbar</title>
 
-    <!-- bootstrap css  -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Navbar</title>
 
-    <link rel="stylesheet" href="./Asset/css/bootstrap.min.css" />
+  <!-- bootstrap css  -->
 
-    <!-- link for main css file  -->
+  <link rel="stylesheet" href="./Asset/css/bootstrap.min.css" />
 
-    <link rel="stylesheet" href="./Asset/css/main.css" />
+  <!-- link for main css file  -->
 
-    <!-- responsive css responsive Links  -->
+  <link rel="stylesheet" href="./Asset/css/main.css" />
 
-    <link rel="stylesheet" href="./Asset/css/responsive.css" />
+  <!-- responsive css responsive Links  -->
 
-    <!-- bootstrap Icon cdn  -->
+  <link rel="stylesheet" href="./Asset/css/responsive.css" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Nav bar  -->
+  <!-- bootstrap Icon cdn  -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Luxe Lounge</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end after"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
-          <div class="navbar-icons">
-            <a href="#"><i class="bi bi-search icon_hover"></i></a>
-            <a href="#"><i class="bi bi-person icon_hover"></i></a>
-            <a href="#"><i class="bi bi-instagram icon_hover"></i></a>
-            <a href="#"><i class="bi bi-cart icon_hover"></i></a>
-          </div>
-        </div>
-      </div>
-    </nav>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
 
-    <!-- Navbar end  -->
+<body>
+  <!-- Nav bar  -->
 
-    <!-- Swiper -->
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-      <div
-        id="carouselExampleAutoplaying"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="./Asset/swiper_img/contemporary-sofa-modern-room.jpg"
-              class="d-block w-100 slide_img"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./Asset/swiper_img/modern-styled-entryway.jpg"
-              class="d-block w-100 slide_img"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./Asset/swiper_img/rm417-e136-mockup.jpg"
-              class="d-block w-100 slide_img"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./Asset/swiper_img/sofa-light.jpg"
-              class="d-block w-100 slide_img"
-              alt="..."
-            />
-          </div>
+      <a class="navbar-brand" href="#">Luxe Lounge</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end after" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <div class="navbar-icons">
+          <a href="#"><i class="bi bi-search icon_hover"></i></a>
+          <a href="#"><i class="bi bi-person icon_hover"></i></a>
+          <a href="#"><i class="bi bi-instagram icon_hover"></i></a>
+          <a href="#"><i class="bi bi-cart icon_hover"></i></a>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <button type="button" class="btn btn-light ms-2" > Sign-UP</button>
+        <button type="button" class="btn btn-light">Login-UP</button>
       </div>
     </div>
+  </nav>
 
-    <!-- End Swiper -->
+  <!-- Navbar end  -->
 
-    <!-- some contain  -->
-
-    <div class="container hello">
-      <div class="row pt-4 pb-4">
-        <div class="col-12 col-lg-6 simply_text_size">
-          Simply Unique/ <br />
-          Simply Better.
+  <!-- Swiper -->
+  <div class="container hello1">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Asset/swiper_img/contemporary-sofa-modern-room.jpg" class="d-block w-100 slide_img" alt="..." />
         </div>
-        <div
-          class="col-12 col-lg-6 d-flex justify-content-end align-items-center"
-        >
-          <p class="right_side_simply_text_size">
-            <b>Luxe Lounge </b> is a gift & decorations store based in HCMC,<br />
-            Vietnam. Est since 2024.
-          </p>
+        <div class="carousel-item">
+          <img src="./Asset/swiper_img/modern-styled-entryway.jpg" class="d-block w-100 slide_img" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./Asset/swiper_img/rm417-e136-mockup.jpg" class="d-block w-100 slide_img" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./Asset/swiper_img/sofa-light.jpg" class="d-block w-100 slide_img" alt="..." />
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </div>
 
-    <!-- some contain  end -->
+  <!-- End Swiper -->
 
-    <!-- product img  -->
+  <!-- some contain  -->
 
-    <div class="container mt-3 hello">
-      <div class="row g-3">
-        <div class="col-md-6 d-flex">
-          <div class="category-box col-12">
-            <img
-              src="./Asset/product-img/Living_room-img.png"
-              alt="Living Room"
-              class="living_room_img"
-            />
-            <div class="category-text_living_room">
-              <h2>Living Room</h2>
-              <a href="#">Shop Now</a>
-            </div>
+  <div class="container">
+    <div class="row pt-4 pb-4">
+      <div class="col-12 col-lg-6 simply_text_size">
+        Simply Unique/ <br />
+        Simply Better.
+      </div>
+      <div class="col-12 col-lg-6 d-flex justify-content-end align-items-center">
+        <p class="right_side_simply_text_size">
+          <b>Luxe Lounge </b> is a gift & decorations store based in
+          HCMC,<br />
+          Vietnam. Est since 2024.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- some contain  end -->
+
+  <!-- product img  -->
+
+  <div class="container mt-3 hello">
+    <div class="row g-3">
+      <div class="col-md-6 d-flex">
+        <div class="category-box col-12">
+          <img src="./Asset/product-img/Living_room-img.png" alt="Living Room" class="living_room_img" />
+          <div class="category-text_living_room">
+            <h2>Living Room</h2>
+            <a href="#">Shop Now</a>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="row g-3">
-            <div class="col-12">
-              <div class="category-box">
-                <img
-                  src="./Asset/product-img/bedroom.png"
-                  alt="Bedroom"
-                  class="bedroom_img"
-                />
-                <div class="category-text">
-                  <h2>Bedroom</h2>
-                  <a href="#">Shop Now</a>
-                </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-3">
+          <div class="col-12">
+            <div class="category-box">
+              <img src="./Asset/product-img/bedroom.png" alt="Bedroom" class="bedroom_img" />
+              <div class="category-text">
+                <h2>Bedroom</h2>
+                <a href="#">Shop Now</a>
               </div>
             </div>
-            <div class="col-12">
-              <div class="category-box">
-                <img
-                  src="./Asset/product-img/kitchan-img.png"
-                  alt="Kitchen"
-                  class="kitchen_img"
-                />
-                <div class="category-text">
-                  <h2>Kitchen</h2>
-                  <a href="#">Shop Now</a>
-                </div>
+          </div>
+          <div class="col-12">
+            <div class="category-box">
+              <img src="./Asset/product-img/kitchan-img.png" alt="Kitchen" class="kitchen_img" />
+              <div class="category-text">
+                <h2>Kitchen</h2>
+                <a href="#">Shop Now</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- product img end -->
+  <!-- product img end -->
 
-    <!-- script file for bootstrap  -->
-    <script src="./Asset/javaScript/bootstrap.bundle.min.js"></script>
-  </body>
+  <!-- product-card  -->
+
+  <div class="container my-5 hello">
+    <div class="row">
+
+      <!-- card-1  -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card">
+          <i class="fas fa-heart icon"></i>
+          <img src="./Asset/product-img/1.png" alt="Loveseat Sofa" class="img-fluid"  />
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
+          <h5 class="mt-3">Loveseat Sofa</h5>
+          <p class="price">$400.00</p>
+          <p class="sale-price">$199.00</p>
+          <button class="btn btn-dark w-100 cart-btn">
+            <i class="fas fa-shopping-cart"></i> Add to cart
+          </button>
+        </div>
+      </div>
+       <!-- card-2  -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card">
+          <i class="fas fa-heart icon"></i>
+          <img src="./Asset/product-img/2.png" alt="Table Lamp" class="img-fluid" />
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
+          <h5 class="mt-3">Table Lamp</h5>
+          <p class="price">$50.00</p>
+          <p class="sale-price">$24.99</p>
+          <button class="btn btn-dark w-100 cart-btn">
+            <i class="fas fa-shopping-cart"></i> Add to cart
+          </button>
+        </div>
+      </div>
+
+       <!-- card-3  -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card">
+          <i class="fas fa-heart icon"></i>
+          <img src="./Asset/product-img/3.png" alt="Beige Table Lamp" class="img-fluid" />
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
+          <h5 class="mt-3"> Beige Table Lamp</h5>
+          <p class="price">$90.00</p>
+          <p class="sale-price">$40.99</p>
+          <button class="btn btn-dark w-100 cart-btn">
+            <i class="fas fa-shopping-cart"></i> Add to cart
+          </button>
+        </div>
+      </div>
+
+       <!-- card-4  -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card">
+          <i class="fas fa-heart icon"></i>
+          <img src="./Asset/product-img/4.png" alt="Bamboo Basket" class="img-fluid" />
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
+          <h5 class="mt-3">Bamboo Basket</h5>
+          <p class="price">$60.00</p>
+          <p class="sale-price">$28.99</p>
+          <button class="btn btn-dark w-100 cart-btn">
+            <i class="fas fa-shopping-cart"></i> Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- product-card Emd  -->
+
+  <!-- script file for bootstrap  -->
+  <script src="./Asset/javaScript/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

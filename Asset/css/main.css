@@ -19,7 +19,14 @@ body {
   /* background: rgba(255, 255, 255, 1); */
   /* background: rgba(255, 0, 0, 0.148); */
 }
+.navbar{
 
+  width: 100%;
+  z-index: 22;
+  position: fixed;
+  top: 0;
+  background-color:#f3f5f7;
+}
 /* navbar  */
 .navbar-brand {
   font-weight: bold;
@@ -57,7 +64,9 @@ body {
 /* navbar end  */
 
 /* swiper */
-
+.hello1{
+margin-top: 65px;
+}
 .slide_img {
   height: 532px;
 }
@@ -80,13 +89,24 @@ body {
 
 /* product img  */
 
+
 .category-box {
   position: relative;
   text-align: start;
   color: black;
 
-  background-color: rgba(128, 128, 128, 0.244);
+  background-color:#f3f5f7;
   border-radius: 10px;
+}
+
+.living_room_img {
+  height: 655px;
+}
+.bedroom_img {
+  height: 319px;
+}
+.kitchen_img {
+  height: 319px;
 }
 
 .category-box img {
@@ -118,12 +138,54 @@ body {
   text-decoration: underline;
 }
 /* product img end */
-.living_room_img {
-  height: 655px;
+
+
+
+/* product-card */
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: start;
+  position: relative;
 }
-.bedroom_img {
-  height: 319px;
+.fa-star {
+  color: green;
 }
-.kitchen_img {
-  height: 319px;
+.fa-star-half{
+  color: green;
 }
+.product-card .price {
+ 
+  text-decoration: line-through;
+  color: #999;
+}
+.product-card .sale-price {
+  color: #28a745;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.product-card .icon {
+  position: absolute;
+  top: 22px;
+  right: 35px;
+  color: #333;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.product-card .icon:hover {
+  color: #e74c3c;
+}
+.product-card .cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-card .cart-btn i {
+  margin-right: 5px;
+}
+
+
+/* product-card Emd  */
