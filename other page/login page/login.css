@@ -1,0 +1,16 @@
+@font-face {
+  font-family: bhavinbhai;
+  src: url();
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: bhavinbhai;
+  font-weight: 500;
+}
+.hello {
+  border: 1px solid red;
+  height: 200px;
+}

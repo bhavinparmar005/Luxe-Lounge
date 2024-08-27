@@ -46,14 +46,11 @@
   }
 
   .feature-box {
-
     text-align: center;
   }
 
   .some_text_2_right_side {
-    
     margin-top: 10px;
-   
   }
   .promo-text h2 {
     font-size: 2rem;
@@ -84,6 +81,12 @@
   }
   .kitchen_img {
     height: 242px;
+  }
+  .newsletter-content {
+    flex-direction: column;
+  }
+  .newsletter-form {
+    margin-top: 20px;
   }
 }
 @media (width<=980px) {

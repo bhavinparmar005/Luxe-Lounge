@@ -13,12 +13,7 @@
 .hello {
   border: 1px solid red;
 }
-body {
-  height: 5000px;
 
-  /* background: rgba(255, 255, 255, 1); */
-  /* background: rgba(255, 0, 0, 0.148); */
-}
 .navbar {
   width: 100%;
   z-index: 22;
@@ -248,5 +243,75 @@ body {
   color: #0056b3;
   text-decoration: underline;
 }
-
 /* sale_start end  */
+
+/* Articles start  */
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.card-text {
+  margin-top: 10px;
+}
+.anchor_tag {
+  color: black;
+}
+
+/* Articles start End */
+
+/* section Join Our Newsletter */
+
+.newsletter-section {
+  background-color: #f5f8fa;
+  margin-top: 50px;
+}
+.newsletter-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.newsletter-image-left img,
+.newsletter-image-right img {
+  max-width: 100%;
+  height: auto;
+}
+.newsletter-image-left,
+.newsletter-image-right {
+  flex: 1.2;
+}
+.newsletter-form {
+  flex: 2;
+  text-align: center;
+  padding: 20px;
+}
+
+.input_some_change {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+/* footer */
+
+.footer {
+  background-color: #1a1a1a;
+  color: #d3d3d3;
+  padding: 40px 0;
+}
+.footer a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #ffffff;
+}
+.footer .spce_border {
+  border-top: 1px solid #2d2d2d;
+  margin: 20px 0;
+}
+
+/* footer end */
+
+/* section Join Our Newsletter end  */
