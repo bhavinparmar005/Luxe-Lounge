@@ -1,5 +1,5 @@
 @font-face {
-  font-family: bahvinbhai;
+  font-family: bhavinbhai;
   src: url(./Font/Poppins-Regular.ttf);
 }
 
@@ -7,25 +7,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: bahvinbhai;
+  font-family: bhavinbhai;
   font-weight: 500;
 }
 .hello {
   border: 1px solid red;
 }
 body {
-  height: 3000px;
+  height: 5000px;
 
   /* background: rgba(255, 255, 255, 1); */
   /* background: rgba(255, 0, 0, 0.148); */
 }
-.navbar{
-
+.navbar {
   width: 100%;
   z-index: 22;
   position: fixed;
   top: 0;
-  background-color:#f3f5f7;
+  background-color: #f3f5f7;
 }
 /* navbar  */
 .navbar-brand {
@@ -64,8 +63,8 @@ body {
 /* navbar end  */
 
 /* swiper */
-.hello1{
-margin-top: 65px;
+.hello1 {
+  margin-top: 65px;
 }
 .slide_img {
   height: 532px;
@@ -89,13 +88,12 @@ margin-top: 65px;
 
 /* product img  */
 
-
 .category-box {
   position: relative;
   text-align: start;
   color: black;
 
-  background-color:#f3f5f7;
+  background-color: #f3f5f7;
   border-radius: 10px;
 }
 
@@ -139,8 +137,26 @@ margin-top: 65px;
 }
 /* product img end */
 
+/* some text_2  */
 
+.height {
+  height: 200px;
+}
+.some_text_2_left_side {
+  font-size: 40px;
+  font-weight: 600;
+}
+.some_text_2_right_side {
+  text-align: end;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  text-decoration: underline;
+  margin-top: 90px;
+  cursor: pointer;
+}
 
+/* some text_2 End */
 /* product-card */
 
 .product-card {
@@ -154,11 +170,10 @@ margin-top: 65px;
 .fa-star {
   color: green;
 }
-.fa-star-half{
+.fa-star-half {
   color: green;
 }
 .product-card .price {
- 
   text-decoration: line-through;
   color: #999;
 }
@@ -187,5 +202,30 @@ margin-top: 65px;
   margin-right: 5px;
 }
 
-
 /* product-card Emd  */
+
+/* service content */
+
+.feature-box {
+  background-color:rgb(243,245,247);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-align: start;
+}
+.feature-box i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* service content end- */
+
+
+/* sale_start */
+
+
+
+
+/* sale_start end  */
