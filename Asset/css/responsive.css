@@ -49,6 +49,16 @@
 
     text-align: center;
   }
+
+  .some_text_2_right_side {
+    text-align: start;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+    margin-top: 10px;
+    cursor: pointer;
+  }
 }
 
 @media (width<=800px) {
