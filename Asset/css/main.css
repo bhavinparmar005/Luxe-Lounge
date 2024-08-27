@@ -207,7 +207,7 @@ body {
 /* service content */
 
 .feature-box {
-  background-color:rgb(243,245,247);
+  background-color: rgb(243, 245, 247);
   padding: 20px;
   border-radius: 5px;
   text-align: center;
@@ -222,10 +222,31 @@ body {
 
 /* service content end- */
 
-
 /* sale_start */
 
+.promo-section {
+  background-color: #f5f8fa;
 
-
+  display: flex;
+  align-items: center;
+}
+.promo-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.promo-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+.promo-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+.promo-text a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
 
 /* sale_start end  */
