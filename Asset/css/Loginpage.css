@@ -1,0 +1,70 @@
+@font-face {
+  font-family: bhavinbhai;
+  src: url("/Asset/Font/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: bhavinbhai;
+  font-weight: 500;
+}
+
+.hello {
+  border: 1px solid red;
+}
+/* .sign-up-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-form {
+  padding: 2rem;
+}
+.form-image {
+  max-width: 100%;
+  height: auto;
+}
+
+ */
+
+.main {
+  height: auto;
+  /* border: 1px solid orange; */
+}
+.sign-up-form {
+  padding: 2rem;
+
+  padding-right: 0px;
+}
+.form-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.left_side_main {
+height: auto;
+  background: #f3f5f7;
+}
+.left_side_char_img {
+  width: 800px;
+  height: 600px;
+}
+
+@media (width<=500px) {
+  .left_side_char_img {
+    
+    margin-left: 50; 
+    width: 250px;
+    height: 200px;
+  }
+
+}
